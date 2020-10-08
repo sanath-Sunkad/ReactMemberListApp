@@ -1,38 +1,142 @@
+
 .App {
   text-align: center;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.maincontainer{
+  text-align: center;
+  margin: 0;
+}
+.homecontainer{
+  text-align: center;
+  background-image: url("../src/Image/Workplace_Culutre.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.MemberDetMain{
+  text-align: center;
+  background-image: url("../src/Image/clock.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.member_list_container{
+  overflow-y: scroll;
+  height: 600px;
+}
+.Members_item{
+  border: 2px;
+  background-color:#BAAFAC;
+  border-radius: 50px;
+  padding:10px;
+  margin-top: 10px;
+  color: black;
+}
+.membersList{
+  margin-left: 25%;
+  margin-right:25%;
+}
+.Members_item:hover{
+  background-color: #706765;
 }
 
-.App-link {
-  color: #61dafb;
+.Member_det_container h1{
+  color:whitesmoke;
+  font-style: italic;
+}
+.Member_det_container h3{
+  color:brown;
+  font-weight: 1000;
+  font-family: Verdana;
+}
+.Member_det_container h4{
+  color:rgb(11, 88, 11);
+  font-style: italic;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+input[type=text] {
+  width: 100px;
+  -webkit-transition: width .35s ease-in-out;
+  transition: width .35s ease-in-out;
+}
+
+.Datepicker_container{
+  margin-top: 50px;
+  background-color: #1B346E;
+  text-align: center;
+  color: antiquewhite;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 3px;
+  border-radius: 10px;
+}
+
+::placeholder{
+  color:antiquewhite;
+}
+.filter_members{
+  margin-top: 50px;
+  background-color: #1B346E;
+  text-align: center;
+  color: antiquewhite;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 3px;
+  border-radius: 10px;
+}
+
+.filter_members:focus{
+  width:200px;
+  outline: none;
+}
+
+.Datepicker_container:focus{
+ width:200px;
+ outline: none;
+}
+
+.activity_period{
+  margin-top: 50px;
+}
+
+.start_time{
+  background-color: #5BF54A;
+  border-radius: 50px;
+  margin-left: 25%;
+  margin-right:25%;
+  font-style: italic;
+  font-weight: 1000;
+  font-size: medium;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 10px;
+}
+
+.end_time{
+  background-color: #F63D3D;
+  border-radius: 50px;
+  margin-left: 25%;
+  margin-right:25%;
+  font-style: italic;
+  font-weight: 1000;
+  font-size: medium;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 10px;
+}
+
+.activity_container{
+  overflow-y: scroll;
+  height: 500px;
+}
+
+.example-custom-input{
+  background-color: #1B346E;
+  color: antiquewhite;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 2px black;
 }
