@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## MEMBERLIST
-![4hupxv](https://user-images.githubusercontent.com/23436902/95520268-7f6d6000-09e4-11eb-980a-e2e39f0cd3ec.gif)
+![4hupxv](https://user-images.githubusercontent.com/23436902/95520268-7f6d6000-09e4-11eb-980a-e2e39f0cd3ec.gif)       ![4huq3u](https://user-images.githubusercontent.com/23436902/95520368-ba6f9380-09e4-11eb-8344-516d9fa6009b.gif)
 
 ## Available Scripts
 
