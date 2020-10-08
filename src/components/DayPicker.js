@@ -13,6 +13,8 @@ const Example = (props) => {
     props.onfil(format(date, "MMM d yyyy"));
   };
   return (
+    <div>
+    <p style={{color:"white"}}>Search By Date</p>
     <DatePicker
     placeholderText="ALL"
     dateFormat="MMM dd yyyy"
@@ -24,6 +26,8 @@ const Example = (props) => {
     scrollableMonthYearDropdown
     className="Datepicker_container"
     />
+    </div>
+
   );
 };
 

@@ -22,7 +22,7 @@ class Home extends React.Component{
 
   filterMembers=(keywords)=>{
     let filtered=this.state.data.filter((item)=>{
-        return item.real_name.indexOf(keywords) >-1 || item.id.indexOf(keywords.toUpperCase()) > -1;
+        return item.real_name.indexOf(keywords.toLowerCase()) >-1 || item.id.indexOf(keywords.toUpperCase()) > -1;
     })
 
     this.setState({filtered})
