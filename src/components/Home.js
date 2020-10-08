@@ -3,22 +3,23 @@ import '../App.css';
 
 import MemberLists from './MemberLists';
 import Header from './Header'
-const URL_HOME = 'http://localhost:3004/members'
+import JSON from '../TestJSON.json'
+// const URL_HOME = 'http://localhost:3004/members'
 
 
 class Home extends React.Component{
   state={
-    data:[],
-    filtered:[]
+    data:JSON,
+    filtered:JSON
   }
-  componentDidMount() {
-    fetch(URL_HOME, { method: 'GET'})
-    .then(response => response.json())
-    .then(json => {
+  // componentDidMount() {
+  //   fetch(URL_HOME, { method: 'GET'})
+  //   .then(response => response.json())
+  //   .then(json => {
         
-        this.setState({data:json,filtered:json})
-    })
-  }
+  //       this.setState({data:json,filtered:json})
+  //   })
+  // }
 
   filterMembers=(keywords)=>{
     let filtered=this.state.data.filter((item)=>{

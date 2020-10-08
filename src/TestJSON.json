@@ -2,7 +2,7 @@
 	"ok": ["true"],
 	"members": [{
 			"id": "W01A3CDE",
-			"real_name": "Egon Spengler",
+			"real_name": "egon spengler",
 			"tz": "America/Los_Angeles",
 			"activity_periods": [{
 					"start_time": "Feb 1 2020  1:33PM",
@@ -20,11 +20,15 @@
 		},
 		{
 			"id": "W2A3CDE",
-			"real_name": "Flash",
+			"real_name": "flash",
 			"tz": "America/Los_Angeles",
 			"activity_periods": [{
-					"start_time": "Feb 1 2020",
-					"end_time": "Feb 1 2020"
+					"start_time": "Feb 1 2020 9:00AM",
+					"end_time": "Feb 1 2020 1:00PM"
+				},
+				{
+					"start_time": "Feb 1 2020 2:00PM",
+					"end_time": "Feb 1 2020 6:00PM"
 				},
 				{
 					"start_time": "Mar 1 2020  11:11AM",
@@ -35,8 +39,8 @@
 					"end_time": "Mar 16 2020 8:02PM"
 				},
 				{
-					"start_time": "apr 1 2020  1:33PM",
-					"end_time": "apr 1 2020 1:54PM"
+					"start_time": "Apr 1 2020  1:33PM",
+					"end_time": "Apr 1 2020 1:54PM"
 				},
 				{
 					"start_time": "May 1 2020  1:33PM",
@@ -62,7 +66,7 @@
 		},
 		{
 			"id": "W3A3CDE",
-			"real_name": "Green Lantern",
+			"real_name": "green lantern",
 			"tz": "America/Los_Angeles",
 			"activity_periods": [{
 					"start_time": "Feb 1 2020  1:33PM",
@@ -80,7 +84,7 @@
 		},
 		{
 			"id": "W4A3CDE",
-			"real_name": "Super Man",
+			"real_name": "super man",
 			"tz": "America/Los_Angeles",
 			"activity_periods": [{
 					"start_time": "Feb 1 2020  1:33PM",
@@ -98,7 +102,7 @@
 		},
 		{
 			"id": "W5A3CDE",
-			"real_name": "Bat Man",
+			"real_name": "bat man",
 			"tz": "America/Los_Angeles",
 			"activity_periods": [{
 					"start_time": "Feb 1 2020  1:33PM",
@@ -116,7 +120,7 @@
 		},
 		{
 			"id": "W6A3CDE",
-			"real_name": "Ant Man",
+			"real_name": "ant man",
 			"tz": "America/Los_Angeles",
 			"activity_periods": [{
 					"start_time": "Feb 1 2020  1:33PM",
@@ -134,7 +138,7 @@
 		},
 		{
 			"id": "W7A3CDE",
-			"real_name": "Aqua Man",
+			"real_name": "aqua man",
 			"tz": "America/Los_Angeles",
 			"activity_periods": [{
 					"start_time": "Feb 1 2020  1:33PM",
@@ -152,7 +156,7 @@
 		},
 		{
 			"id": "W8A3CDE",
-			"real_name": "Spider Man",
+			"real_name": "spider man",
 			"tz": "America/Los_Angeles",
 			"activity_periods": [{
 					"start_time": "Feb 1 2020  1:33PM",
@@ -169,7 +173,7 @@
 			]
 		},{
 			"id": "W9A3CDE",
-			"real_name": "Iron Man",
+			"real_name": "iron man",
 			"tz": "America/Los_Angeles",
 			"activity_periods": [{
 					"start_time": "Feb 1 2020  1:33PM",
@@ -187,7 +191,7 @@
 		},
 		{
 			"id": "W10A3CDE",
-			"real_name": "Dr Strange",
+			"real_name": "dr strange",
 			"tz": "America/Los_Angeles",
 			"activity_periods": [{
 					"start_time": "Feb 1 2020  1:33PM",
@@ -205,7 +209,7 @@
 		},
 		{
 			"id": "W11A3CDE",
-			"real_name": "Thor",
+			"real_name": "thor",
 			"tz": "America/Los_Angeles",
 			"activity_periods": [{
 					"start_time": "Feb 1 2020  1:33PM",
@@ -223,7 +227,7 @@
 		},
 		{
 			"id": "W12A3CDE",
-			"real_name": " Wolverine",
+			"real_name": " wolverine",
 			"tz": "America/Los_Angeles",
 			"activity_periods": [{
 					"start_time": "Feb 1 2020  1:33PM",
@@ -241,7 +245,7 @@
 		},
 		{
 			"id": "W13A3CDE",
-			"real_name": "Super Girl",
+			"real_name": "super girl",
 			"tz": "America/Los_Angeles",
 			"activity_periods": [{
 					"start_time": "Feb 1 2020  1:33PM",
@@ -259,7 +263,7 @@
 		},
 		{
 			"id": "W14A3CDE",
-			"real_name": "Wonder Woman",
+			"real_name": "wonder woman",
 			"tz": "America/Los_Angeles",
 			"activity_periods": [{
 					"start_time": "Feb 1 2020  1:33PM",
@@ -277,7 +281,7 @@
 		},
 		{
 			"id": "W15A3CDE",
-			"real_name": "Incredible Hulk",
+			"real_name": "incredible hulk",
 			"tz": "America/Los_Angeles",
 			"activity_periods": [{
 					"start_time": "Feb 1 2020  1:33PM",
@@ -295,7 +299,7 @@
 		},
 		{
 			"id": "W16A3CDE",
-			"real_name": "Bat Man",
+			"real_name": "bat man",
 			"tz": "America/Los_Angeles",
 			"activity_periods": [{
 					"start_time": "Feb 1 2020  1:33PM",
@@ -313,7 +317,7 @@
 		},
 		{
 			"id": "W17QCRPA4",
-			"real_name": "Green Arrow",
+			"real_name": "green arrow",
 			"tz": "Asia/Kolkata",
 			"activity_periods": [{
 					"start_time": "apr 1 2020  1:33PM",

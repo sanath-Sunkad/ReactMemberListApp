@@ -5,7 +5,7 @@ import MembersListItem from './MembersListItem'
 
 const MemberLists =(props)=>{
 
-    const items=props.members.map((item)=>{
+    const items=props.members.members.map((item)=>{
         return(
             
             <Link to={`/${item.id}`} key={item.id} style={{textDecoration:"none"}}>
