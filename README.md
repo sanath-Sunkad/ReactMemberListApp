@@ -14,7 +14,7 @@ Required to formate date
 Required to host a mock API for the json file
 ### `json-server --watch filename.json --port 3004`
 To run mock API which will host the api at [http://localhost:3004](http://localhost:3004)
-In this project TestJSON.json is hoste and creats list of API at [http://localhost:3004/members](http://localhost:3004/members) 
+In this project TestJSON.json is hosted and creats list of API at [http://localhost:3004/members](http://localhost:3004/members)
 
 In the project directory, you can run:
 
