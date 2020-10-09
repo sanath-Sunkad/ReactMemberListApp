@@ -18,6 +18,8 @@ class MemberDet extends React.Component{
          
      }
 
+
+
      addfil = (val)=> {
             this.setState({datefiltered:val});
      }
