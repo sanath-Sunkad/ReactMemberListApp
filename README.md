@@ -1,7 +1,20 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## MEMBERLIST
-
+![React App - Google Chrome 2020-10-09 02-51-35_Trim](https://user-images.githubusercontent.com/23436902/95521260-c0667400-09e6-11eb-91b5-c4e441b61007.gif)
 ## Available Scripts
+
+## Initial Requirement
+
+Versions arre available in package.json
+### `npm install react-datepicke --save`
+Required for Calender function to pick date.
+### `npm install date-fns --save`
+Required to formate date
+### `npm install json-servver --save`
+Required to host a mock API for the json file
+### `json-server --watch filename.json --port 3004`
+To run mock API which will host the api at [http://localhost:3004](http://localhost:3004)
+In this project TestJSON.json is hosted and creats list of API at [http://localhost:3004/members](http://localhost:3004/members)
 
 In the project directory, you can run:
 
